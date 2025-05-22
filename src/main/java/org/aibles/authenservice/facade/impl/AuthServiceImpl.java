@@ -77,10 +77,10 @@ public class AuthServiceImpl implements AuthService {
     private JwtUtil jwtUtil;
 
     private static final int OTP_EXPIRY_MINUTES = 5;
-    private static final String OTP_PREFIX = "OTP:";
-    private static final String OTP_FORGOT_PASSWORD = "OTP_FORGOT_PASSWORD:";
-    private static final String OTP_USED_PREFIX = "OTP_USED:";
-    private static final String LOGIN_FAILED = "LOGIN_FAILED";
+    private static final String OTP_PREFIX = "";
+    private static final String OTP_FORGOT_PASSWORD = "";
+    private static final String OTP_USED_PREFIX = "";
+    private static final String LOGIN_FAILED = "";
     private static final int MAX_LOGIN_FAILED = 5;
     private static final long LOCK_DURATION_MINUTES = 2;
     private static final long ACCESS_TOKEN_EXPIRATION = 1000 * 60 * 15; // 15 minutes
