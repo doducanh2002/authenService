@@ -36,7 +36,6 @@ import java.util.concurrent.TimeUnit;
 public class AuthServiceImpl implements AuthService {
 
     private static final Logger log = LoggerFactory.getLogger(AuthServiceImpl.class);
-
     @Autowired
     private RedisTemplate<String, String> redisTemplate;
 
